@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,5 +12,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="基本使用-分步骤实现"/>
+
+    <Button
+        android:id="@+id/chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="基本使用-链式调用实现"
+        app:layout_constraintTop_toBottomOf="@+id/step"/>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="操作符-创建"
+        app:layout_constraintTop_toBottomOf="@+id/chain"/>
 
 </android.support.constraint.ConstraintLayout>

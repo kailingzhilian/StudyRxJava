@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".StepActivity"/>
+        <activity android:name=".StepUseActivity"/>
+        <activity android:name=".ChainUseActivity"/>
+        <activity android:name=".CreateOperatorActivity"/>
     </application>
 
 </manifest>

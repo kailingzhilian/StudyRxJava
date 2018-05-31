@@ -17,9 +17,9 @@ import io.reactivex.disposables.Disposable;
  * RxJava 基本使用分步骤实现
  */
 
-public class StepActivity extends AppCompatActivity {
+public class StepUseActivity extends AppCompatActivity {
 
-    private static String TAG = StepActivity.class.getName();
+    private static String TAG = StepUseActivity.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
