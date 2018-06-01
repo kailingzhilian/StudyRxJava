@@ -19,6 +19,7 @@
         <activity android:name=".ChainUseActivity"/>
         <activity android:name=".CreateOperatorActivity"/>
         <activity android:name=".TransformOperatorActivity"/>
+        <activity android:name=".CombineAndMergeOperatorActivity"/>
     </application>
 
 </manifest>
