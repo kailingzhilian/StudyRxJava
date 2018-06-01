@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.step).setOnClickListener(this);
         findViewById(R.id.chain).setOnClickListener(this);
         findViewById(R.id.create).setOnClickListener(this);
+        findViewById(R.id.transform).setOnClickListener(this);
     }
 
     @Override
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.create:
                 startActivity(new Intent(this, CreateOperatorActivity.class));
+                break;
+            case R.id.transform:
+                startActivity(new Intent(this, TransformOperatorActivity.class));
                 break;
         }
     }

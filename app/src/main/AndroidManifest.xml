@@ -18,6 +18,7 @@
         <activity android:name=".StepUseActivity"/>
         <activity android:name=".ChainUseActivity"/>
         <activity android:name=".CreateOperatorActivity"/>
+        <activity android:name=".TransformOperatorActivity"/>
     </application>
 
 </manifest>
