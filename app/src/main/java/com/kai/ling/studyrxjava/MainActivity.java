@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.create).setOnClickListener(this);
         findViewById(R.id.transform).setOnClickListener(this);
         findViewById(R.id.combine_and_merge).setOnClickListener(this);
+        findViewById(R.id.function).setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.combine_and_merge:
                 startActivity(new Intent(this, CombineAndMergeOperatorActivity.class));
+                break;
+            case R.id.function:
+                startActivity(new Intent(this, FunctionOperatorActivity.class));
                 break;
         }
     }
